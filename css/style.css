@@ -1,8 +1,3 @@
-ul, li {
-    display: block;
-    padding: 0;
-    margin: 0;
-}
 /* NOTE Navigation */
 .menu-bar {
     padding: 10px 0;
@@ -10,7 +5,16 @@ ul, li {
 
 }
 
+.menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
 .menu__item {
+    display: block;
+    padding: 0;
+    margin: 0;
     margin-left: 20px;
 }
 
@@ -24,8 +28,7 @@ ul, li {
     text-decoration: none;
     color: #fff;
 }
-/* NOTE Header */
-.header > div {
-    background-image: url(../img/title.png);
+/* NOTE main */
+.main__img {
     height: 390px;
 }
