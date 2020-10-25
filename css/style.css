@@ -3,7 +3,7 @@ ul, li {
     padding: 0;
     margin: 0;
 }
-
+/* NOTE Navigation */
 .menu-bar {
     padding: 10px 0;
     background-color: #26a9e0;
@@ -23,4 +23,9 @@ ul, li {
 .menu__item a:hover {
     text-decoration: none;
     color: #fff;
+}
+/* NOTE Header */
+.header > div {
+    background-image: url(../img/title.png);
+    height: 390px;
 }
