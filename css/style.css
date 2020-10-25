@@ -1,0 +1,26 @@
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    padding: 10px 0;
+    background-color: #26a9e0;
+
+}
+
+.menu__item {
+    margin-left: 20px;
+}
+
+.menu__item a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #fff;
+}
