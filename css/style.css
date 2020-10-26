@@ -1,3 +1,19 @@
+/* NOTE Fonts */
+@font-face {
+    font-family: 'PTSans-Regular';
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans-Italic';
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+
 /* NOTE Navigation */
 .menu-bar {
     padding: 10px 0;
@@ -28,7 +44,42 @@
     text-decoration: none;
     color: #fff;
 }
+
 /* NOTE main */
 .main__img {
     height: 390px;
+}
+
+.main__title {
+    font-size: 21px;
+    color: #26a9e0;
+    font-family: 'PTSans-Bold';
+}
+
+.main__text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.2;
+    font-family: 'PTSans-Regular';
+}
+
+.main__text_mt {
+    margin-top: 15px;
+}
+
+.section {
+    margin-top: 20px;
+}
+/* NOTE Footer */
+.footer {
+    background-color: #26a9e0;
+    height: 100px;
+}
+
+.footer__text {
+    margin: 0;
+    line-height: 1.2;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 15px;
 }
