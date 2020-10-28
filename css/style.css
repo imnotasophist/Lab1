@@ -1,18 +1,4 @@
-/* NOTE Fonts */
-@font-face {
-    font-family: 'PTSans-Regular';
-    src: url(../fonts/PTSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'PTSans-Bold';
-    src: url(../fonts/PTSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'PTSans-Italic';
-    src: url(../fonts/PTSans-Bold.ttf);
-}
+@import 'fonts.css';
 
 /* NOTE Navigation */
 .menu-bar {
@@ -59,6 +45,10 @@
 }
 
 /* NOTE main */
+.main {
+    min-height: calc(100vh - 100px);
+}
+
 .main__img {
     height: 390px;
 }
@@ -89,13 +79,19 @@
     text-decoration: underline;
 }
 
+.main__btn {
+    background-color: #26a9e0;
+    border-color: #26a9e0;
+}
+
 .section {
     margin-top: 20px;
 }
+
 /* NOTE Footer */
 .footer {
     background-color: #26a9e0;
-    height: 100px;
+    min-height: 100px;
 }
 
 .footer__text {

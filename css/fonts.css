@@ -1,0 +1,15 @@
+/* NOTE Fonts */
+@font-face {
+    font-family: 'PTSans-Regular';
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans-Italic';
+    src: url(../fonts/PTSans-Bold.ttf);
+}
