@@ -96,7 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
+    width: 284px;
     height: 200px;
 }
 
@@ -126,6 +126,37 @@
     max-width: 100%;
     width: auto;
     height: auto;
+}
+
+.card-deck {
+    margin: 20px 0;
+}
+
+.aside {
+    display: block;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.aside ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.aside__item {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.aside__link {
+    color: #333333;
+}
+
+.aside__link:hover {
+    text-decoration: none;
+    color: #33a9e0;
 }
 
 /* NOTE Footer */
