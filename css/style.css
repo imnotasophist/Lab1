@@ -159,6 +159,18 @@
     color: #33a9e0;
 }
 
+input._error {
+    box-shadow: 0 0 15px red;
+}
+
+textarea._error {
+    box-shadow: 0 0 15px red;
+}
+
+select._error {
+    box-shadow: 0 0 15px red;
+}
+
 /* NOTE Footer */
 .footer {
     background-color: #26a9e0;
