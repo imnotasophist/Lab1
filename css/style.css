@@ -181,6 +181,42 @@ select._error {
     opacity: 0;
 }
 
+.up {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: blue;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 30px;
+    font-family: 'PTSans-Regular';
+    display: none;
+}
+
+.up-show {
+    display: block;
+}
+
+.up:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.main__title-effect {
+    cursor: pointer;
+    color: #26a9e0;
+    transition: all 1s;
+}
+
+.main__title-effect:hover {
+    color: crimson;
+}
+
 /* NOTE Footer */
 .footer {
     background-color: #26a9e0;
