@@ -137,5 +137,5 @@ $upJS = '<script>
         goTopBtn.addEventListener("click", backToTop);
     })();
 </script>';
-require '/tpl/footer.php'; 
+include '/tpl/footer.php'; 
 ?>

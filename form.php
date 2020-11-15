@@ -1,6 +1,6 @@
 <?php 
 $title = "Обратная связь";
-require '/tpl/header.php'; 
+require_once '/tpl/header.php'; 
 ?>
 
     <!-- *Main -->
@@ -53,5 +53,5 @@ require '/tpl/header.php';
     <!-- *Footer -->
 <?php 
 $formJS = '<script src="js/form.js"></script>';
-require '/tpl/footer.php'; 
+include_once '/tpl/footer.php'; 
 ?>
