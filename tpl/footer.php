@@ -25,7 +25,6 @@
 <?php echo $preloader; ?>
 <?php echo $clockJS; ?>
 <?php echo $upJS; ?>
-<?php echo $formJS; ?>
 
 </body>
 

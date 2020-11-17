@@ -216,6 +216,12 @@ select._error {
     color: crimson;
 }
 
+.error {
+    font-family: 'PTSans-Regular';
+    font-size: 200px;
+    color: crimson;
+}
+
 /* NOTE Footer */
 .footer {
     background-color: #26a9e0;
