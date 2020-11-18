@@ -37,6 +37,9 @@
                                 <a class="dropdown-item" href="form.php">Пожаловаться</a>
                             </div>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.php">Размер</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
