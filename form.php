@@ -13,14 +13,14 @@ require_once '/tpl/header.php';
                 <form action="check.php" id="myForm" class="form" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label class="main__text">Имя</label>
+                            <label class="main__text">Представьтесь</label>
                             <?php if (isset($errorName)) { ?>
                                 <sup style="color:crimson;"><?php echo $errorName ?></sup>
                             <?php } ?>
                             <input name="name" type="text" class="form-control _req" value="<?php echo htmlspecialchars($name) ?>">
                         </div>
                         <div class="form-group col-md-6">
-                            <label class="main__text">Email</label>
+                            <label class="main__text">Ваш E-mail</label>
                             <?php if (isset($errorEmail)) { ?>
                                 <sup style="color:crimson;"><?php echo $errorEmail ?></sup>
                             <?php } ?>
@@ -28,7 +28,7 @@ require_once '/tpl/header.php';
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="main__text">Сообщение</label>
+                        <label class="main__text">Текст сообщения</label>
                         <?php if (isset($errorMessage)) { ?>
                             <sup style="color:crimson;"><?php echo $errorMessage ?></sup>
                         <?php } ?>
