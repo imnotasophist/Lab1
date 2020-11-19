@@ -40,17 +40,17 @@ require_once '/tpl/header.php';
                     <div class="card-deck">
                         <?php 
                         $cards2 = getCardsAll2(); 
-                        foreach ($cards2 as $card2): ?>
+                        foreach ($cards2 as $card): ?>
                         <div class="card">
                             <div class="wrapper">
-                                <img src="<?php echo $card2["img"]; ?>" class="card-img-top card__img" alt="...">
+                                <img src="<?php echo $card["img"]; ?>" class="card-img-top card__img" alt="...">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title"><?php echo $card2["title"]; ?></h5>
-                                <p class="card-text"><?php echo $card2["author"]; ?></p>
+                                <h5 class="card-title"><?php echo $card["title"]; ?></h5>
+                                <p class="card-text"><?php echo $card["author"]; ?></p>
                                 <div class="card__footer">
                                     <button class="btn btn-primary main__btn btn__text">Купить</button>
-                                    <p class="main__text main__text_bold"><?php echo $card2["price"]; ?> ₽</p>
+                                    <p class="main__text main__text_bold"><?php echo $card["price"]; ?> ₽</p>
                                 </div>
                             </div>
                         </div>
