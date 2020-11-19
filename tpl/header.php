@@ -42,6 +42,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about.php">Размер</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/autorization.php">Войти</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
