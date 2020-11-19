@@ -38,3 +38,19 @@ function getAsideAll2() {
     $aside2 = $db->query("SELECT * FROM aside2");
     return $aside2;
 }
+// *souvenir
+function getCardsAll5() {
+    global $db;
+    $cards5 = $db->query("SELECT * FROM cards5");
+    return $cards5;
+}
+function getCardsAll6() {
+    global $db;
+    $cards6 = $db->query("SELECT * FROM cards6");
+    return $cards6;
+}
+function getAsideAll3() {
+    global $db;
+    $aside3 = $db->query("SELECT * FROM aside3");
+    return $aside3;
+}
