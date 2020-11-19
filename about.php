@@ -24,7 +24,7 @@ function getFilesSize($path)
 
     return $fileSize;
 }
-$size = getFilesSize('C:\WebServers\home\Lab3').' байт';
+$size = getFilesSize('C:\WebServers\home\Lab4').' байт';
 echo $size;
 ?>
             </p>

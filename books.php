@@ -9,20 +9,11 @@ require_once '/tpl/header.php';
                 <aside class="aside col-xl-2">
                     <p class="main__text main__text_bold">Категории</p>
                     <ul>
-                        <li class="aside__item main__text"><a class="aside__link" href="#">Художественная литература</a></li>
-                        <li class="aside__item main__text"><a class="aside__link" href="#">Книги для детей</a></li>
-                        <li class="aside__item main__text"><a class="aside__link" href="#">Образование</a></li>
-                        <li class="aside__item main__text"><a class="aside__link" href="#">Наука и техника</a></li>
-                        <li class="aside__item main__text"><a class="aside__link" href="#">Общество</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Деловая литература</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Красота. Здоровье. Спорт</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Увлечения</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Психология</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Эзотерика</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Философия и религия</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Искусство</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Подарочные издания</a></li>
-                        <li class="aside__item main__text"><a href="#" class="aside__link">Книги на иностранных языках</a></li>
+                        <?php 
+                        $aside = getAsideAll(); 
+                        foreach ($aside as $asideOne): ?>
+                        <li class="aside__item main__text"><a class="aside__link" href="#"><?php echo $asideOne["title"]; ?></a></li>
+                        <?php endforeach; ?>
                     </ul>
                 </aside>
                 <section class="section col-xl-10">

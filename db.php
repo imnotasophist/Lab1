@@ -16,3 +16,8 @@ function getCardsAll2() {
     $cards2 = $db->query("SELECT * FROM cards2");
     return $cards2;
 }
+function getAsideAll() {
+    global $db;
+    $aside = $db->query("SELECT * FROM aside");
+    return $aside;
+}
