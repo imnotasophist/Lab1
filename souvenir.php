@@ -11,7 +11,7 @@ require_once '/tpl/header.php';
                     <p class="main__text main__text_bold">Категории</p>
                     <ul>
                         <?php 
-                        $aside2 = getAsideAll3(); 
+                        $aside3 = getAsideAll3(); 
                         foreach ($aside3 as $asideOne): ?>
                         <li class="aside__item main__text"><a class="aside__link" href="#"><?php echo $asideOne["title"]; ?></a></li>
                         <?php endforeach; ?>
