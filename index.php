@@ -104,38 +104,7 @@ require '/tpl/header.php';
     </main>
     <!-- Footer -->
 <?php 
-$clock = '<div id="MyClockDisplay" class="clock footer__text" onload="showTime()"></div>';
+$clock = '<div id="MyClockDisplay" class="clock footer__text"></div>';
 $up = '<a class="up" title="Наверх">&uarr;</a>';
-$preloader = '<script src="/js/preloader.js"></script>';
-$clockJS = '<script src="/js/clock.js"></script>';
-$upJS = '<script>
-    (function () {
-        "use strict";
-
-        function trackScroll() {
-            let scrolled = window.pageYOffset;
-            let coords = document.documentElement.clientHeight;
-
-            if (scrolled > coords) {
-                goTopBtn.classList.add("up-show");
-            }
-            if (scrolled < coords) {
-                goTopBtn.classList.remove("up-show");
-            }
-        }
-
-        function backToTop() {
-            if (window.pageYOffset > 0) {
-                window.scrollBy(0, -80);
-                setTimeout(backToTop, 0);
-            }
-        }
-
-        let goTopBtn = document.querySelector(".up");
-
-        window.addEventListener("scroll", trackScroll);
-        goTopBtn.addEventListener("click", backToTop);
-    })();
-</script>';
 include '/tpl/footer.php'; 
 ?>
