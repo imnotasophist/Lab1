@@ -2,11 +2,11 @@
 $title = 'Размер';
 require '/tpl/header.php'; 
 ?>
-<main class="main">
+<main>
     <div class="container">
-        <section class="section">
-            <h2 class="main__title main__title-effect">Размер сайта</h2>
-            <p class="main__text main__text_mt">
+        <section>
+            <h2>Размер сайта</h2>
+            <p class="main__text_mt">
 <?php 
 function getFilesSize($path)
 {

@@ -13,23 +13,23 @@
 </head>
 
 <body>
-    <header class="menu-bar">
+    <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav>
                 <a href="index.php"><img src="img/logo.svg" alt="Читай-город"></a>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="books.php">Книги</a>
+                <div id="navbarNavDropdown">
+                    <ul>
+                        <li>
+                            <a href="books.php">Книги</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="stationery.php">Канцтовары</a>
+                        <li>
+                            <a href="stationery.php">Канцтовары</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="souvenir.php">Сувениры</a>
+                        <li>
+                            <a href="souvenir.php">Сувениры</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="form.php" id="navbarDropdownMenuLink"
+                        <li class="dropdown">
+                            <a href="form.php" id="navbarDropdownMenuLink"
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Обратная связь
                             </a>
@@ -39,11 +39,11 @@
                                 <a class="dropdown-item" href="form.php">Пожаловаться</a>
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.php">Размер</a>
+                        <li>
+                            <a href="about.php">Размер</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/autorization.php">Войти</a>
+                        <li>
+                            <a href="/autorization.php">Войти</a>
                         </li>
                     </ul>
                 </div>

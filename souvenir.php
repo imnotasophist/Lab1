@@ -4,34 +4,34 @@ require_once '/tpl/header.php';
 ?>
 
     <!-- *Main -->
-    <main class="main">
+    <main>
         <div class="container">
             <div class="row">
-                <aside class="aside col-xl-2">
-                    <p class="main__text main__text_bold">Категории</p>
+                <aside>
+                    <p>Категории</p>
                     <ul>
                         <?php 
                         $aside3 = getAsideAll3(); 
                         foreach ($aside3 as $asideOne): ?>
-                        <li class="aside__item main__text"><a class="aside__link" href="#"><?php echo $asideOne["title"]; ?></a></li>
+                        <li><a href="#"><?php echo $asideOne["title"]; ?></a></li>
                         <?php endforeach; ?>
                     </ul>
                 </aside>
-                <section class="section col-xl-10">
-                    <h2 class="main__title">Сувениры</h2>
+                <section class="col-xl-10">
+                    <h2>Сувениры</h2>
                     <div class="card-deck">
                         <?php 
                         $cards5 = getCardsAll5(); 
                         foreach ($cards5 as $card): ?>
                         <div class="card">
                             <div class="wrapper">
-                                <img src="<?php echo $card["img"]; ?>" class="card-img-top card__img" alt="...">
+                                <img src="<?php echo $card["img"]; ?>"  alt="...">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title"><?php echo $card["title"]; ?></h5>
+                                <h5><?php echo $card["title"]; ?></h5>
                                 <div class="card__footer">
-                                    <button class="btn btn-primary main__btn btn__text">Купить</button>
-                                    <p class="main__text main__text_bold"><?php echo $card["price"]; ?> ₽</p>
+                                    <button>Купить</button>
+                                    <p><?php echo $card["price"]; ?> ₽</p>
                                 </div>
                             </div>
                         </div>
@@ -43,13 +43,13 @@ require_once '/tpl/header.php';
                         foreach ($cards6 as $card): ?>
                         <div class="card">
                             <div class="wrapper">
-                                <img src="<?php echo $card["img"]; ?>" class="card-img-top card__img" alt="...">
+                                <img src="<?php echo $card["img"]; ?>" alt="...">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title"><?php echo $card["title"]; ?></h5>
+                                <h5><?php echo $card["title"]; ?></h5>
                                 <div class="card__footer">
-                                    <button class="btn btn-primary main__btn btn__text">Купить</button>
-                                    <p class="main__text main__text_bold"><?php echo $card["price"]; ?> ₽</p>
+                                    <button>Купить</button>
+                                    <p><?php echo $card["price"]; ?> ₽</p>
                                 </div>
                             </div>
                         </div>

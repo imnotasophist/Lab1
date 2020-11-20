@@ -4,43 +4,43 @@ require_once '/tpl/header.php';
 ?>
 
     <!-- *Main -->
-    <main class="main">
+    <main>
         <div class="container">
-            <section class="section">
-                <h2 class="main__title">
+            <section>
+                <h2>
                     Написать руководству федеральной книжной сети
                 </h2>
-                <form action="check.php" id="myForm" class="form" method="post">
+                <form action="check.php" id="myForm" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label class="main__text">Представьтесь</label>
+                            <label>Представьтесь</label>
                             <?php if (isset($errorName)) { ?>
                                 <sup style="color:crimson;"><?php echo $errorName ?></sup>
                             <?php } ?>
-                            <input name="name" type="text" class="form-control _req" value="<?php echo htmlspecialchars($name) ?>">
+                            <input name="name" type="text" value="<?php echo htmlspecialchars($name) ?>">
                         </div>
                         <div class="form-group col-md-6">
-                            <label class="main__text">Ваш E-mail</label>
+                            <label>Ваш E-mail</label>
                             <?php if (isset($errorEmail)) { ?>
                                 <sup style="color:crimson;"><?php echo $errorEmail ?></sup>
                             <?php } ?>
-                            <input name="email" type="text" class="form-control _req _email" value="<?php echo htmlspecialchars($email) ?>">
+                            <input name="email" type="text" class="_email" value="<?php echo htmlspecialchars($email) ?>">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="main__text">Текст сообщения</label>
+                        <label>Текст сообщения</label>
                         <?php if (isset($errorMessage)) { ?>
                             <sup style="color:crimson;"><?php echo $errorMessage ?></sup>
                         <?php } ?>
-                        <textarea name="message" class="form-control _req" rows="3"><?php echo htmlspecialchars($message) ?></textarea>
+                        <textarea name="message" rows="3"><?php echo htmlspecialchars($message) ?></textarea>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-3">
-                            <label class="main__text">Город</label>
+                            <label>Город</label>
                             <?php if (isset($errorCity)) { ?>
                                 <sup style="color:crimson;"><?php echo $errorCity ?></sup>
                             <?php } ?>
-                            <select name="city" class="form-control col-md-8">
+                            <select name="city">
                                 <option selected><?php echo htmlspecialchars($city) ?></option>
                                 <option>Волгоград</option>
                                 <option>Саратов</option>
@@ -50,8 +50,8 @@ require_once '/tpl/header.php';
                     </div>
                     <div class="form-group">
                         <div class="form-check">
-                            <input name="age" class="form-check-input  _req" type="checkbox">
-                            <label class="form-check-label main__text">
+                            <input name="age" type="checkbox">
+                            <label>
                                 Мне есть 18 лет
                             </label>
                             <?php if (isset($errorAge)) { ?>
