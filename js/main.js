@@ -51,7 +51,7 @@ $(document).ready(function () {
         }, '300');
     });
 
-    setInterval(function show() {
+    setInterval(function() {
         $.ajax({
             url: "../clock.php",
             cache: false,
@@ -81,19 +81,7 @@ $(document).ready(function () {
             $('#preloader').removeClass('visible');
         }
     );
-
-    $(".nav-link")
-        .on("mouseenter", function () {
-            $(this).css({
-                "color": "#fff !important"
-            });
-        })
-        .on("mouseleave", function () {
-            let styles = {
-                color: "rgba(255, 255, 255, 0.897) !important"
-            };
-            $(this).css(styles);
-        });
+    
     $(".aside__link")
         .on("mouseenter", function () {
             $(this).css({

@@ -24,6 +24,17 @@
 .dropdown-menu.show {
     background-color: #26a9e0;
 }
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.897) !important;
+}
+
+.aside__link {
+    color: #333;
+}
 
 /* NOTE main */
 .main {
